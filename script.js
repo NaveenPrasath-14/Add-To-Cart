@@ -5,7 +5,7 @@ let mobiles = [
         name: "iPhone 15",
         price: 65000,
         category: "Apple",
-        image: "./images/iPhone17.jpg"
+        image: "./img/iPhone17.jpg"
     },
 
     {
@@ -13,7 +13,7 @@ let mobiles = [
         name: "Samsung S24",
         price: 55000,
         category: "Samsung",
-        image: "./images/samsung.jpg"
+        image: "./img/samsung.jpg"
     },
 
     {
@@ -21,7 +21,7 @@ let mobiles = [
         name: "OnePlus 12",
         price: 45000,
         category: "OnePlus",
-        image: "./images/oneplus.jpg"
+        image: "./img/oneplus.jpg"
     },
 
     {
@@ -29,7 +29,7 @@ let mobiles = [
         name: "Google Pixel 8",
         price: 50000,
         category: "Google",
-        image: "./images/pixel10.jpg"
+        image: "./img/pixel10.jpg"
     },
 
     {
@@ -37,7 +37,7 @@ let mobiles = [
         name: "Redmi 17",
         price: 30000,
         category: "Redmi",
-        image: "./images/redmi17.jpg"
+        image: "./img/redmi17.jpg"
     },
 
     {
@@ -45,7 +45,7 @@ let mobiles = [
         name: "Nothing 4",
         price: 35000,
         category: "Nothing",
-        image: "./images/nothing4.jpg"
+        image: "./img/nothing4.jpg"
     }
 
 ];
