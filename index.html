@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NBRAND</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container"> 
+
+        <header>
+
+            <div>
+                <p class="brand-small">SMART STORE</p>
+                <h1><span>N</span>BRAND</h1>
+            </div>
+
+            <button id="cartBtn" class="cart-btn">
+                🛒 Cart
+                <span id="cartCount">0</span>
+            </button>
+
+        </header>
+
+
+     <div class="top-bar">
+
+    <div>
+        <h2>Latest Mobiles</h2>
+        <p>Choose your perfect smartphone</p>
+    </div>
+
+
+    <div class="filters">
+
+        <div class="search-box">
+
+            <span>⌕</span>
+
+            <input
+                type="text"
+                id="search"
+                placeholder="Search mobiles..."
+            >
+
+        </div>
+
+
+        <select id="category">
+
+            <option value="all">
+                All Brands
+            </option>
+
+            <option value="Apple">
+                Apple
+            </option>
+
+            <option value="Samsung">
+                Samsung
+            </option>
+
+            <option value="OnePlus">
+                OnePlus
+            </option>
+
+            <option value="Google">
+                Google
+            </option>
+
+            <option value="Redmi">
+                Redmi
+            </option>
+
+            <option value="Nothing">
+                Nothing
+            </option>
+
+        </select>
+
+
+        <select id="sort">
+
+            <option value="default">
+                Sort By
+            </option>
+
+            <option value="low">
+                Price: Low to High
+            </option>
+
+            <option value="high">
+                Price: High to Low
+            </option>
+
+        </select>
+
+    </div>
+
+</div>
+
+
+        <div class="products" id="products"></div>
+
+    </div>
+
+
+    <!-- Cart Overlay -->
+
+    <div class="overlay" id="overlay"></div>
+
+
+    <!-- Cart Sidebar -->
+
+    <div class="cart" id="cart">
+
+        <div class="cart-header">
+
+            <div>
+                <p class="cart-small">YOUR SHOPPING BAG</p>
+                <h2>My Cart</h2>
+            </div>
+
+            <button id="closeCart" class="close-btn">
+                ×
+            </button>
+
+        </div>
+
+
+        <div id="cartItems" class="cart-items">
+
+            <div class="empty-cart">
+                <div>🛒</div>
+                <p>Your cart is empty</p>
+            </div>
+
+        </div>
+
+
+        <div class="cart-bottom">
+
+            <div class="price-row">
+                <span>Subtotal</span>
+                <strong>₹<span id="total">0</span></strong>
+            </div>
+
+            <p class="delivery">
+                Free delivery on your order
+            </p>
+
+            <button id="buyBtn" class="buy-btn">
+                Buy Now →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Order Success -->
+
+    <div class="order-screen" id="orderScreen">
+
+        <div class="order-card">
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+            <h2>Order Placed!</h2>
+
+            <p>
+                Your mobile order has been successfully placed.
+            </p>
+
+            <button id="continueBtn">
+                Continue Shopping
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
